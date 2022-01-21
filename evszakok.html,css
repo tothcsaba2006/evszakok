@@ -1,0 +1,33 @@
+HTML{
+    text-align: center;
+}
+
+
+img {
+    width: 300px;
+    margin: 30px;
+    border: 5px solid darkorange;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+.kep{
+    float: left;
+}
+
+img:hover{
+    transform: scale(1.3);
+}
+
+.content{
+    width: fit-content;
+    margin:auto;
+}
+
+img:hover + h2 {
+    font-size: xx-large;
+}
+
+h2{
+    transition: 0.5s;
+}
